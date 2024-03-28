@@ -1,0 +1,159 @@
+body {
+	background-color: #000000;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  filter: brightness(.2);
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.enable_music {
+    color: #e7e7e7;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    margin: 820px auto;
+    animation: music 3s;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #81cf9e;
+    width: 200px; /* Set a fixed width */
+    text-align: center;
+    position: absolute; /* Position the container absolutely */
+    left: 0; /* Align to the left */
+    margin-left: 848px; /* Add some margin to give space */
+}
+
+
+.text1 {
+  color: #e7e7e7;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  font-weight: 450;
+
+  margin: 100px auto;
+  animation: music 3s;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #81cf9e;
+  width: 358px; /* Set a fixed width */
+  text-align: center;
+  position: absolute; /* Position the container absolutely */
+  left: 0; /* Align to the left */
+  margin-left: 775px; /* Add some margin to give space */
+  top: 80%;
+  left: 30%;
+}
+
+.text2 {
+  color: #e7e7e7;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  font-weight: 450;
+
+  margin: 100px auto;
+  animation: music 3s;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #81cf9e;
+  width: 358px; /* Set a fixed width */
+  text-align: center;
+  position: absolute; /* Position the container absolutely */
+  left: 0; /* Align to the left */
+  margin-left: 200px; /* Add some margin to give space */
+  top: 80%;
+}
+
+.test {
+  color: #e7e7e7;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+  font-size: 50px;
+  letter-spacing: 5px;
+
+  font-weight: 450;
+
+  animation: music 3s;
+  padding: 10px;
+  width: 358px; /* Set a fixed width */
+  text-align: center;
+  position: absolute; /* Position the container absolutely */
+  left: 0; /* Align to the left */
+  margin-left: 772px; /* Add some margin to give space */
+  top: 40%;
+}
+
+img {
+  width: 200px;
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loadbar {
+    width: 100%;
+    background-color: #000000;
+    height: 20px;
+
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.progressBar {
+    width: 10%;
+    background-color: #f1c40f;
+    height: 20px;
+
+    position: absolute;
+    left: 10%;
+}
